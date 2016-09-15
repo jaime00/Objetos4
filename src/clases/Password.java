@@ -12,7 +12,7 @@ package clases;
 public class Password {
 
     private String contraseña;
-    private int longitud;
+    private int longitud = 8;
 
     public Password(String contraseña) {
         this.contraseña = contraseña;
@@ -52,7 +52,7 @@ public class Password {
 
     public String Mostrar() {
         String aux = "Su contraseña es " + this.getContraseña();
-        return aux;
+       return aux;      
     }
 
 }
